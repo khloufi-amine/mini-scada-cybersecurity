@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Données locales et historiques
+scada_history.csv
+*.log
+
+# Sauvegardes locales
+scada_backup*.py
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Fichiers Windows
+Thumbs.db
+Desktop.ini
